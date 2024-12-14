@@ -1,0 +1,101 @@
+:root {
+  --main-color: #1e202b;
+  --sec-color: #2d303d;
+  --thr-color: #323544;
+  --fore-color: #262936;
+  --fife-color: #222530;
+}
+.nav-color {
+  background-color: var(--main-color);
+}
+.header-card {
+  background-color: var(--sec-color);
+}
+.header-card-2 {
+  background-color: var(--fife-color);
+}
+
+.frist-card-bg {
+  background-color: var(--thr-color);
+}
+.second-card-bg {
+  background-color: var(--fore-color);
+}
+
+.footer i {
+  background-color: var(--main-color);
+  padding: 0.5rem;
+  border-radius: 50%;
+  color: #009ad8;
+  cursor: pointer;
+}
+
+.footer i:hover {
+  background-color: #009ad8;
+  color: white;
+}
+
+.size {
+  font-size: 80px;
+}
+.move {
+  transform: translateY(-200px);
+}
+
+.card {
+  height: 450px;
+}
+
+.footer {
+  background-color: #323544;
+}
+
+.btn-size {
+  position: absolute;
+  right: 20px;
+  bottom: 5px;
+  top: 5px;
+  color: white;
+  border: 0;
+  width: 100px !important;
+}
+.bg-cover {
+  height: 400px;
+  background-image: url(../banner.png);
+  background-position: center;
+  background-size: cover;
+}
+.bg-color {
+  color: white;
+  background-color: #1e202b;
+}
+input::placeholder {
+  color: rgb(122, 120, 120);
+}
+.background {
+  background-color: #1e202b;
+}
+#icon {
+  width: 6rem;
+}
+
+input:focus {
+  border: none;
+}
+
+#after {
+  color: #ffffff;
+}
+
+#after:hover {
+  color: #009ad8;
+  font-size: small;
+  border: 1px solid #009ad8;
+}
+
+ul li .active {
+  color: #009ad8;
+
+  font-size: small;
+  border: 1px solid #009ad8;
+}
